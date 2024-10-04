@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="nav.css">
+</head>
+<style>
+	
+nav{
+	background: #0082e6;
+	height: 80px;
+	width: 100%;
+}
+li{
+	list-style-type: none;
+	text-decoration: none;
+
+}
+li a:hover{
+	background-color: dimgray;
+}
+label.logo{
+color: white;
+font-size: 35px;
+line-height: 80px;
+padding: 0 100px;
+font-weight: bold;
+}
+nav ul{
+	float: right;
+	margin-right: 20px;
+}
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin:0 5px;
+}
+nav ul li a{
+	color: white;
+	font-size: 17px;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 7px 13px;
+	border-radius: 3px;
+
+
+}
+.a, a:hover{
+	background: #1b9bff;
+	transition: .5s;
+	
+}
+h2{
+	font-size: 20px;
+background-color: lightblue;
+padding: 15px;
+margin: 50px;
+
+}
+.checkbtn{
+	font-size: 30px;
+	color: black;
+
+}
+
+form{
+	
+	margin:0;
+	cursor: pointer;
+	align-items: center;
+	
+
+
+	max-width: 700px;
+	margin: 50px;
+	background-color: gray;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
+
+}
+
+}
+input[type=submit]
+{
+background-color: green;
+}
+
+input[type=name]
+{
+
+	display: block;background-color: lightgray;
+}
+input[type=mail]
+{
+
+	display: block;background-color: lightgray;
+}
+input[type=number]
+{
+	display: block;background-color: lightgray;
+}
+input[type=text]
+{
+	
+	display: block;background-color: lightgray;
+}
+
+</style>
+<body>
+	<nav>
+		<input type="checkbox" id="check">
+		<label for="checkbtn" class="checkbtn">
+			<i class="fas fa-bars"></i>
+		</label>
+	<label class="logo">Ang_Mall</label>	
+	<ul>
+		<li><a href="nav.html" class="a">Home</a></li>
+		<li><a href="Aboutus2.html">About</a></li>
+		<li><a href="#" target="_blank">Services</a></li>
+		<li><a href="keplerforrm.html">Contact</a></li>
+		<li><a href="#" target="_blank">Jobs</a></li>
+		<li><a href="#" target="_blank">Partners</a></li>
+
+	</ul>
+	</nav>
+
+<h2 style="text-align: center;">Kepler Event Registration Form</h2>
+<form>
+	<table>
+		
+	<tr>
+		<td>
+			First Name
+			<input type="name" name="">
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Last Name
+			<input type="name" name="">
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Email
+			<input type="mail" name="">
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Phone Number
+			<input type="Number" name="">
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Reg No
+			<input type="Number" name="">
+		</td>
+	</tr>
+	<td>
+			Gender
+			<input type="radio" name="Gender">Male
+			<input type="radio" name="Gender">Female
+		</td>
+	</tr>
+		<td>
+			Event Name
+			<input type="name" name="">
+		</td>
+	</tr>
+		<td>
+			Reason/ Description
+			<input type="text" name="">
+		</td>
+		</tr>
+		<tr>
+		<td>
+			<input type="submit" value="Send">
+		</td>
+
+	</tr>
+</table>
+</form>
+</body>
+</html>
